@@ -1,9 +1,7 @@
 const http = require('http')
 
-// const envVariables = require('dotenv')
-// envVariables.load()
+
 require('dotenv').config()
-//const services = require()
 
 http.createServer(function (request, response) {
 
